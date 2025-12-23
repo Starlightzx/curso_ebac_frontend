@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+Header {
+    background-color: #1414B8;
+    color: #ffffff;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 16px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.caixa-cadastro {
+    border: solid #cccccc 2px;
+    border-radius: 2px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-cadastro h2,
+.caixa-cadastro input,
+.caixa-cadastro button {
+    margin-bottom: 8px;
+}
+
+.caixa-cadastro input,
+.caixa-cadastro button {
+    padding: 8px;
+}
+
+.caixa-cadastro button {
+    background-color: #1414B8;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.caixa-cadastro button:hover {
+    background-color: #2b58de;
+}
